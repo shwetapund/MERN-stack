@@ -97,22 +97,36 @@
         }
 
         .btn {
-            padding: 8px;
-            font-size: 15px;
-
-            border-radius: 5px;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 20px;
             background-color: green;
         }
 
         .btn:hover {
-            box-shadow: rgb(0, 0, 0);
+            box-shadow:2px 2px 2px 2px  rgb(0, 0, 0);
+        }
+        .btn-box-grey:hover{
+            box-shadow: 2px 2px 2px 2px grey;
         }
 
         .btn-btn {
             text-decoration: none;
             color: white;
-
         }
+       .btn-bg-black{
+        background-color: black;
+        border: solid 1px black;
+       }
+       .btn-bg-skyblue{
+        background-color: rgb(8, 106, 145);
+        border: solid 1px rgb(7, 114, 156);
+       }
+       .btn-bg-green{
+        border: solid 1px green;
+       }
+      
+        
     </style>
 </head>
 
@@ -127,11 +141,11 @@
         <div class="main-cont">
             <div class="card border-green bg-light-green">
                 <img src="mongodb.png" class="card-img" />
-                <h2> MongoDB</h2>
+                <h2>MongoDB</h2>
                 <p class="text">MongoDB is a NoSQL DBMS where data is stored in the form of documents having key-value
                     pairs similar to JSON objects. MongoDB enables users to create databases, schemas, and tables.
-                    </p>
-                <button class="btn"><a href="https://www.mongodb.com/" class="btn-btn">Click More</a></button>
+                    </p><br/>
+                <button class="btn btn-bg-green"><a href="https://www.mongodb.com/" class="btn-btn">Click More</a></button>
             </div>
 
             <div class="card border-black bg-light-gray">
@@ -139,8 +153,8 @@
                 <h2>ExpressJS</h2>
                 <p class="text">ExpressJS is a NodeJS framework that simplifies writing the backend code. It saves you
                     from creating multiple Node modules. For keeping the code precise, ExpressJS offers a range of
-                    middleware.</p>
-                <button class="btn"><a href="https://www.mongodb.com/" class="btn-btn">Click More</a></button>
+                    middleware.</p><br/>
+                <button class="btn btn-bg-black btn-box-grey"><a href="https://www.geeksforgeeks.org/express-js/" class="btn-btn">Click More</a></button>
             </div>
 
             <div class="card border-sky bg-light-sky">
@@ -148,8 +162,8 @@
                 <h2>ReactJS</h2>
                 <p class="text">ReactJS is a JS library that allows the development of user interfaces for mobile apps
                     and SPAs. It allows you to code JavaScript and develop UI components. The JS library uses virtual
-                    DOM for doing everything.</p>
-                    <button class="btn"><a href="https://www.mongodb.com/" class="btn-btn">Click More</a></button>
+                    DOM for doing everything.</p><br/>
+                    <button class="btn btn-bg-skyblue"><a href="https://www.mongodb.com/" class="btn-btn">Click More</a></button>
 
             </div>
 
@@ -159,7 +173,7 @@
                 <p class="text">NodeJS is an open-source JavaScript runtime environment that allows users to run code on
                     the server. It comes with the node package manager or npm, enabling users to select from a wide
                     selection of node modules.</p>
-                    <button class="btn"><a href="https://www.mongodb.com/" class="btn-btn">Click More</a></button>
+                    <button class="btn btn-bg-green"><a href="https://www.mongodb.com/" class="btn-btn">Click More</a></button>
 
             </div>
         </div>
